@@ -10,7 +10,7 @@
 
 <body>
     <nav>
-        Magic
+        <h3>Magic</h3>
         <ul class="menu1">
             <li>Products</li>
             <li>ESports</li>
@@ -31,26 +31,31 @@
 
         <section class="big-main">
          
+            <div class="back">
+                <div>
+                    <h1></h1>
+                </div>
+            </div>
+
             <div class="left-main">
 
                 <h1>
                     Magic
                     <h6>The Gathering</h6>
-                    <h2>Universe Beyond</h2>
+                    <h3>Universe Beyond</h3>
                 </h1>
+                    <h2>FALLOUT</h2>
+                    <h4>Release Date: March 2024</h4>
                 </div>
+            </div>
+        
 
-                <div class="right-main">
-                    <h1>FALLOUT</h1>
-                    <h2>Release Date: March 2024</h2>
-                </div>
+            <div class="right-main">
+                <img src="https://images.pexels.com/photos/4888482/pexels-photo-4888482.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="apocalypse">
+            </div>
         </section>
 
-        
-            <img src="https://images.pexels.com/photos/4888482/pexels-photo-4888482.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="apocalypse">
-        </div>
-
-        <div>
+        <div class="middle">
             <div class="ask">
                 <h1>GET THE LATEST UPDATES FOR FALLOUT</h1>
                 <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quis, debitis deleniti reprehenderit nisi commodi eos quos molestias repudiandae placeat illum id ullam eaque aliquam, earum sapiente fugiat voluptatem quas?</P>
@@ -65,41 +70,52 @@
     </main>
 
     <footer>
+    <div>
+        <section class="left-bottom">
+            <div class="search">
+                <h2>Find a Store</h2>
+                <input type="text" placeholder="Enter your city or postal code">
+            </div>
+        
 
-        <div class="search">
-            <h2>Find a Store</h2>
-            <input type="text" placeholder="Enter your city or postal code">
-        </div>
+            <div class="media">
+                <h2>Social</h2>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-twitch"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </section>
 
-        <div class="media">
-            <h2>Social</h2>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-twitch"></i>
-            <i class="fa-brands fa-youtube"></i>
-            <i class="fa-brands fa-instagram"></i>
-        </div>
+        <aside>
+            <div>
+                <h2>Find</h2>
+                <h3><a href="">Club Support</a></h3>
+                <h3><a href="">Club Support</a></h3>
+                <h3><a href="">Digital Books</a></h3>
+                <h3><a href="">Formats</a></h3>
+                <h3><a href="">Rules</a></h3>
+                <h3><a href="">Military Supoort</a></h3>
+            </div>
 
-    <section class="links">
-        <div>
-            <h2>Find</h2>
-            <h3>Articles</h3>
-            <h3>Club Support</h3>
-            <h3>Digital Books</h3>
-            <h3>Formats</h3>
-            <h3>Rules</h3>
-            <h3>Military Supoort</h3>
-        </div>
+            <div>
+                <h2>Company</h2>
+                <h3><a href="">About</a></h3>
+                <h3><a href="">Careers</a></h3>
+                <h3><a href="">Support</a></h3>
+                <h3><a href="">Wizards Play Network</a></h3>
+                <h3><a href="">Affiliate Program Disclosure</a></h3> 
+            </div>
 
-        <div>
-            <h2>Company</h2>
-        </div>
-
-        <div>
-            <h2>Brands</h2>
-        </div> 
-    </section>
-
+            <div>
+                <h2>Brands</h2>
+                <h3><a href="">Dungeons & Dragons</a></h3>
+                <h3><a href="">Duel Masters</a></h3>
+                <h3><a href="">Magic</a></h3>
+            </div> 
+        </aside>
+    </div>
     </footer>
 
 </body>
